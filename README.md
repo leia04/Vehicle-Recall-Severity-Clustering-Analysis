@@ -17,6 +17,11 @@ This project uses K-Means clustering to identify **low-, medium-, and high-sever
 - Raw recall counts obscure structural risk patterns, especially across manufacturers with different production scales.
 - Existing analyses rarely apply unsupervised learning to understand recall severity at scale.
 
+## Key Findings
+- A three-cluster solution (k = 3) consistently emerged as optimal, representing low, medium, and high recall severity.
+- High-severity recalls disproportionately involve safety-critical components such as **electrical systems, fuel systems, and airbags**.
+- Large manufacturers (e.g., GM, Ford, Chrysler) dominate absolute recall counts, but **smaller manufacturers exhibit higher proportional rates of severe recalls**.
+- Temporal analysis shows a rise in high-severity recalls beginning in the 1990s, aligning with increasing vehicle complexity and regulatory changes.
 
 ## Approach
 The analysis follows a structured clustering pipeline:
@@ -30,11 +35,6 @@ The analysis follows a structured clustering pipeline:
 - Analyzed severity patterns across time, manufacturers, and defect components.
 
 
-## Key Findings
-- A **three-cluster solution (k = 3)** consistently emerged as optimal, representing low, medium, and high recall severity.
-- High-severity recalls disproportionately involve safety-critical components such as **electrical systems, fuel systems, and airbags**.
-- Large manufacturers (e.g., GM, Ford, Chrysler) dominate absolute recall counts, but **smaller manufacturers exhibit higher proportional rates of severe recalls**.
-- Temporal analysis shows a rise in high-severity recalls beginning in the 1990s, aligning with increasing vehicle complexity and regulatory changes.
 
 
 ## Code
