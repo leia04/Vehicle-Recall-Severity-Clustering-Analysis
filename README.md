@@ -1,4 +1,4 @@
-# Car Recall Clustering: Severity-Based Analysis of U.S. Vehicle Recalls
+# Vehicle Recall Severity Clustering & Analysis
 
 This project analyzes nearly six decades of U.S. vehicle recall data and applies unsupervised learning to cluster recalls by severity.  
 Rather than focusing on recall frequency alone, the analysis groups recalls based on the **number of potentially affected vehicles**, temporal patterns, and manufacturer characteristics to uncover structural differences in recall severity.
